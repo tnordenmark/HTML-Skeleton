@@ -5,6 +5,20 @@
 <title>Hross í oss (Of Horses and Men)</title>
 <link href="favicon.ico" rel="icon" type="image/x-icon" />
 <style>
+body {
+      background-color:#99ccff;
+}
+#main_section {
+               width:80%;
+               margin:0 auto;
+               background-color: #99ccff;
+}
+#main_div {
+           width: 640px;
+           margin: 0 auto;
+           background-color: white;
+           padding:8px;
+}
 h1 {
     font-family: verdana;
     font-size: 200%;
@@ -17,6 +31,7 @@ h2 {
 footer {
         text-align: center;
         font-size: 90%;
+        background-color:#c0c0c0;
 }
 #trailer {
           display: block;
@@ -26,16 +41,22 @@ footer {
         width: 30%;
         margin: 0 auto;
 }
+#poster {
+         display: block;
+         margin: 0 auto;
+}
 </style>
 </head>
 
 <body>
-<section style="width:640px; margin:0 auto;">
+<section id="main_section">
+  <div id="main_div">
   <article>
   <header>
   <h1>Hross í oss (Of Horses and Men)</h1>
-  <!-- <img> Logotype here -->
+  <img id="poster" src="hross_i_oss.jpg" width="509" height="750">
   </header>
+  <br>
   <iframe id="trailer" width="640" height="360" src="https://www.youtube.com/embed/MKodaUmsYxk?autoplay=0">
   </iframe>
   <br>
@@ -93,14 +114,13 @@ footer {
     <a href="http://www.equisearch.com/discoverhorses/all-about-horses" target="_blank">Horse Info</a>
    </div>
   </article>
-<!-- <video>Movie clip, poster or whatever</video> -->
-</section>
 </body>
 
 <footer>
-  <hr style="width:640px;">
   <p>Last updated by: <a href="mailto:webmaster@thehorsemovie.com">
   webmaster@thehorsemovie.com</a></p>
   <p>&copy FSMovies 2017</p>
 </footer>
+</div>
+</section>
 </html>

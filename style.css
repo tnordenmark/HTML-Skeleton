@@ -1,0 +1,48 @@
+body {
+    background-color: #0083B7;
+}
+
+#main_section {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #0083B7;
+}
+
+#main_div {
+    width: 648px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 8px;
+}
+
+h1 {
+    font-family: verdana;
+    font-size: 200%;
+    text-align: center;
+}
+
+h2 {
+    font-family: verdana;
+    font-size: 150%;
+}
+
+footer {
+    text-align: center;
+    font-size: 90%;
+    background-color: white;
+}
+
+#trailer {
+    display: block;
+    margin: auto;
+}
+
+#links {
+    width: 30%;
+    margin: 0 auto;
+}
+
+#poster {
+    display: block;
+    margin: 0 auto;
+}
